@@ -154,12 +154,12 @@ void task_test0(void *arg)
   while(1)
   {
     sleep_ms(10);
-    /*
+
     mutex_lock(&m);
     sleep_ms(500);
     mutex_unlock(&m);
     sleep_ms(1000);
-    */
+
   }
 }
 
@@ -168,11 +168,11 @@ void task_test1(void *arg)
   while(1)
   {
     sleep_ms(10);
-    /*
+
     sleep_ms(50);
     mutex_lock(&m);
     mutex_unlock(&m);
-    */
+
   }
 }
 
